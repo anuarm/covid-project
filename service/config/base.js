@@ -137,6 +137,12 @@ module.exports = {
         type: 'asset',
         generator: { filename: 'fonts/[contenthash:8][ext][query]' },
       },
+
+      // pug
+      {
+        test: /\.pug$/,
+        loader: 'pug-plain-loader'
+      }
     ],
   },
 }

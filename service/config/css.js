@@ -61,7 +61,9 @@ const genStyleRules = () => {
   return [
     createCSSRule(/\.css$/),
     createCSSRule(/\.p(ost)?css$/),
-    createCSSRule(/\.scss$/, 'sass-loader'),
+    createCSSRule(/\.(sa|sc|c)ss$/, 'sass-loader', {
+      additionalData: `@import "@/sass/main.sass"`
+    }),
   ]
 }
 

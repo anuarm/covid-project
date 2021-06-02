@@ -10,6 +10,8 @@
   "dependencies": {
     "@babel/runtime": "^7.14.0",
     "core-js": "^3.12.1",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
     "vue": "^3.0.11",
     "vue-router": "^4.0.8",
     "vuex": "^4.0.0"
