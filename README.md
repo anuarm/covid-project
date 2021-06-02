@@ -1,8 +1,6 @@
-# vue3-boilerplate
+# vue 3 base
 
-A Vue 3 Starter Boilerplate with Vue Router 4, Vuex 4, Typescript 4, Webpack 5, Prettier and More.
-
-**And not using the Vue CLI.**
+Proyecto con configuracion base para los proyectos de
 
 ## Architecture
 
@@ -12,18 +10,21 @@ A Vue 3 Starter Boilerplate with Vue Router 4, Vuex 4, Typescript 4, Webpack 5, 
 ├─ src
 │  ├─ assets        // assets such as images or font files.
 │  ├─ components    // universal Vue components.
+│  │  ├─ atoms      // atoms.
+│  │  ├─ molecules  // molecules.
+│  │  ├─ organisms  // organisms.
+│  │  └─ templates  // templates.
 │  ├─ router        // view's routers config.
 │  ├─ store         // Vuex store modules.
-│  ├─ typings       // typescript .d.ts files.
-│  └─ views         // pages.
+│  └─ typings       // typescript .d.ts files.
 ```
 
 ## Commands
 
 ```bash
 # Start development server.
-yarn serve
+npm run dev
 
 # Compile production bundle.
-yarn build
+npm run build
 ```
